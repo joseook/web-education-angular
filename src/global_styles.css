@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors;
+  }
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-8;
+  }
+  .heading-primary {
+    @apply text-4xl font-bold text-gray-900 mb-6;
+  }
+  .heading-secondary {
+    @apply text-2xl font-semibold text-gray-800 mb-4;
+  }
+}
